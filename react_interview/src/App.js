@@ -6,19 +6,23 @@ import PureComponent from "./Component/PureComponent";
 // const componentPure = memo(PureComponent);
 
 function App() {
-  const [lname, setLname] = useState("test");
+  const [lname, setLname] = useState("first state");
 
   return (
     <div className="App">
-      <div>{lname}</div>
+      <div> Main Component state ==:{lname}</div>
       <button
+        style={{
+          width: "200px",
+          height: "40px",
+        }}
         onClick={() => {
           setLname("hero" + Date.now());
         }}
       >
         click
       </button>
-      <PureComponent name={"rahul"} />
+      <PureComponent name={lname} />
     </div>
   );
 }

@@ -1,10 +1,10 @@
 import React, { memo } from "react";
 
 function PureComponent(props) {
-  console.log("rahul");
+  console.log("This is the Pure component ");
   return (
     <div>
-      PureComponent
+      PureComponent state==:
       {props.name}
       <div
         style={{
@@ -12,6 +12,8 @@ function PureComponent(props) {
           fontFamily: "monospace",
           fontSize: "25px",
           margin: "auto",
+          lineHeight: "30px",
+          marginTop: "40px",
         }}
       >
         Pure components are the components which render the same output for the
