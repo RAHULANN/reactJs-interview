@@ -3,6 +3,7 @@ import "./App.css";
 import { memo, useState } from "react";
 
 import PureComponent from "./Component/PureComponent";
+import Carousel from "./Component/Carousel";
 // const componentPure = memo(PureComponent);
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
 
   return (
     <div className="App">
-      <div> Main Component state ==:{lname}</div>
+      {/* <div> Main Component state ==:{lname}</div>
       <button
         style={{
           width: "200px",
@@ -21,8 +22,9 @@ function App() {
         }}
       >
         click
-      </button>
-      <PureComponent name={lname} />
+      </button> */}
+      {/* <PureComponent name={lname} /> */}
+      <Carousel />
     </div>
   );
 }
