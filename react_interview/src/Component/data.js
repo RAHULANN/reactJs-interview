@@ -20,6 +20,14 @@ verb (used with object)Digital Technology.`,
 
     Text refers to the actual words written in a book, newspaper, blog post, or any other written work. Pictures, charts, and other images are not text. Wh`,
   },
+  {
+    img: "https://img.freepik.com/free-photo/html-system-website-concept_23-2150376770.jpg?w=740&t=st=1706720264~exp=1706720864~hmac=51a119f33b3ea91236516b40964b5cd10f6f752e2845b96124a79697220d6b90",
+    text: `verb (used without object)Digital Technology.
+
+    to send a text message: Texting while driving is an accident asking to happen.
+
+verb (used with object)Digital Technology.`,
+  },
 ];
 
 export { data };
