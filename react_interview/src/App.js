@@ -4,6 +4,8 @@ import { memo, useState } from "react";
 
 import PureComponent from "./Component/PureComponent";
 import Carousel from "./Component/Carousel";
+import SplineAnimationComponent from "./Component/Ani";
+import PrintNumIn1Sec from "./Component/PrintNumIn1Sec";
 // const componentPure = memo(PureComponent);
 
 function App() {
@@ -24,7 +26,10 @@ function App() {
         click
       </button> */}
       {/* <PureComponent name={lname} /> */}
-      <Carousel />
+      {/* <Carousel /> */}
+      {/* <SplineAnimationComponent /> */}
+
+      <PrintNumIn1Sec />
     </div>
   );
 }
