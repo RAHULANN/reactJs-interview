@@ -6,6 +6,7 @@ import PureComponent from "./Component/PureComponent";
 import Carousel from "./Component/Carousel";
 import SplineAnimationComponent from "./Component/Ani";
 import PrintNumIn1Sec from "./Component/PrintNumIn1Sec";
+import MapFunction from "./Component/MapFunction";
 // const componentPure = memo(PureComponent);
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       {/* <SplineAnimationComponent /> */}
 
       <PrintNumIn1Sec />
+      <MapFunction />
     </div>
   );
 }
