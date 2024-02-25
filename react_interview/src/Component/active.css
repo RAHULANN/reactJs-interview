@@ -1,0 +1,9 @@
+.active {
+    color: red; /* Change to desired highlight color */
+    /* Add any other styles for the highlighted link */
+}
+nav{
+    position: sticky;
+    top: 0;
+    background-color: aqua;
+}

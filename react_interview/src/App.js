@@ -8,6 +8,7 @@ import SplineAnimationComponent from "./Component/Ani";
 import PrintNumIn1Sec from "./Component/PrintNumIn1Sec";
 import MapFunction from "./Component/MapFunction";
 import FIlterFun from "./Component/FIlterFun";
+import ActiveLink from "./Component/activeLink";
 // const componentPure = memo(PureComponent);
 
 function App() {
@@ -30,6 +31,8 @@ function App() {
       {/* <PureComponent name={lname} /> */}
       {/* <Carousel /> */}
       {/* <SplineAnimationComponent /> */}
+
+      <ActiveLink />
 
       <PrintNumIn1Sec />
       <MapFunction />
